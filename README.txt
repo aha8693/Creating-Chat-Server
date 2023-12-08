@@ -1,6 +1,7 @@
-Sample README.txt
+The main goal of this program is to provide an opportunity to create a network application.
 
-Contribution: han10
+This program is representative of a larger class of network-enabled systems:
 
-Eventually your report about how you implemented thread synchronization
-in the server should go here
+* It will have a protocol for communication between clients and server
+* it will allow communication over a network (specifically by accepting TCP connections from clients)
+* It will use concurrency and synchronization primitives to coordinate access to shared data on a remote server
