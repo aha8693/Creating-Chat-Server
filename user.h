@@ -6,6 +6,7 @@
 
 struct User {
   std::string username;
+  std::string room_number = "";
 
   // queue of pending messages awaiting delivery
   MessageQueue mqueue;
